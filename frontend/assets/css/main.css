@@ -1367,11 +1367,34 @@ section {
   background-size: contain;
   position: relative;
 }
-
+/* .donation {
+  border-spacing: 10px;
+  border-collapse: separate;
+} */
+.donation-select {
+  width: 441px;
+  height: 47px;
+}
 @media (max-width: 640px) {
   .contact {
     background-position: center 50px;
   }
+}
+/* 초기 버튼 스타일 */
+.price {
+  width: 100px; /* 버튼 너비 조절 */
+  height: 70px; /* 버튼 높이 조절 */
+  font-size: 16px; /* 글꼴 크기 조절 */
+  margin-right: 10px; /* 버튼 간격 조절 (원하는 크기로 조절) */
+  border-spacing: 2px;
+  border-collapse: separate;
+  background-color: white;
+}
+
+/* 클릭 시 스타일 */
+.price.active {
+  background-color: rgb(24, 161, 221);
+  color: white;
 }
 
 .contact:before {
@@ -1384,8 +1407,27 @@ section {
   right: 0;
 }
 
+table {
+  width: 1000px;
+  border-spacing: 21px;
+  border-collapse: separate;
+}
+
 .contact .info-item + .info-item {
   margin-top: 40px;
+}
+.button-1 {
+  flex: 1;
+}
+
+.button-2 {
+  flex: 2;
+}
+.button-3 {
+  flex: 3;
+}
+.button-4 {
+  flex: 4;
 }
 
 .contact .info-item i {
