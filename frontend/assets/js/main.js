@@ -222,3 +222,15 @@ document.addEventListener("DOMContentLoaded", () => {
     aos_init();
   });
 });
+const buttons = document.querySelectorAll(".price"); // 버튼들을 선택
+
+// 버튼 클릭 시 스타일 변경
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    // 모든 버튼에서 'active' 클래스 제거
+    buttons.forEach((b) => b.classList.remove("active"));
+
+    // 클릭된 버튼에 'active' 클래스 추가
+    button.classList.add("active");
+  });
+});
