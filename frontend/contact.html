@@ -75,8 +75,7 @@
                 </ul>
               </li>
               <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+              <li><a href="#">Dropdown 3</a></li>`
             </ul>
           </li>
           <li><a href="contact.html" class="active">후원하기</a></li>
@@ -134,7 +133,7 @@
             </div>
 
           </div> -->
-
+            <b>　후원정보</b>
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
               <table id="form1" class="form">
                 <tr>
@@ -166,30 +165,30 @@
                 </tr>
               </table>
             </div>
+            <!-- 기본정보  -->
+            <br>
+            <b>　기본정보</b>
+            <div class="basic-information">
+              <table>
+                <tr>
+                  <th class="bi-th">이름</th>
+                  <td> <input type="text" name="name" maxlength="12" size="20">
+                </tr>
+                <tr>
+                  <th>휴대폰번호</th>
+                  <td> <input type="text" name="cellPhone" id="cellPhone" maxlength="13" />
+                  </td>
+                </tr>
+                <tr>
+                  <th>이메일</th>
+                  <td> <input type="email" name="Email" id="email" maxlength="20" size="20">
+                  </td>
+                </tr>
+              </table>
+            </div>
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
+            <!-- 신청하기 -->
+            <a class="btn btn--diagonal btn--blue" href="payment.html" target="_blank">신청하기</a>
           </div><!-- End Contact Form -->
 
         </div>
